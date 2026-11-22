@@ -1,5 +1,6 @@
 package com.dingqw.icesound;
 
+import com.dingqw.icesound.client.IceSoundKeyBindings;
 import com.dingqw.icesound.config.IceSoundConfig;
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.block.Block;
@@ -56,6 +57,7 @@ public class Ice_sound implements ClientModInitializer {
 		}
 		IceSoundConfig.get(); // 启动时读一次配置
 		rebuildPitchCache();
+		IceSoundKeyBindings.register(); // 注册打开配置界面的快捷键（默认 [ ）
 		LOGGER.info("冰冰冰");
 	}
 
