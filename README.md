@@ -3,9 +3,10 @@
 这是一个基于Fabric的Minecraft模组。
 它将 Minecraft 中冰块、浮冰、蓝冰的放置、破坏、踩踏音效，替换成了震撼！美味！（突发恶疾）的“冰冰冰”雷霆音效。
 ## 下载
-- Minecraft: 1.21.1
-- Fabric Loader: 0.18.1 或更高
-- 需要 Fabric API
+1. Minecraft 1.21.1
+2. Fabric Loader >=0.18.1
+3. 必需模组 Fabric API
+
 下载链接：右侧Release 或[蓝奏云](https://wwbgb.lanzoul.com/i7xbO4gyndof) 密码:b5xs
 *注：目前仅支持1.21.1，其它版本正在制作中，敬请期待...*
 
