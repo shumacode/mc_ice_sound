@@ -33,3 +33,4 @@
 本项目基于 [MIT](LICENSE) 许可证开源。
 
 *Developed by dingqw1234. Made with Java.*
+*部分代码由DeepSeek Harness生成*
