@@ -12,12 +12,10 @@ repositories {
 }
 
 loom {
-	splitEnvironmentSourceSets()
-
+	// 这是一个仅客户端模组，所有代码都放在 src/main 里，不再区分服务端/客户端源码集。
 	mods {
 		"ice_sound" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 }

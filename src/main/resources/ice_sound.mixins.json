@@ -3,7 +3,8 @@
 	"package": "com.dingqw.icesound.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

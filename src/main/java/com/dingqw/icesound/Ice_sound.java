@@ -1,6 +1,6 @@
 package com.dingqw.icesound;
 
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Ice_sound implements ModInitializer {
+public class Ice_sound implements ClientModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("ice_sound");
 
 	// 放置、破坏、行走、挖掘四个事件共用同一个 ice_ice_ice.ogg，各自的变调写在 sounds.json 里。
@@ -36,7 +36,7 @@ public class Ice_sound implements ModInitializer {
 	}
 
 	@Override
-	public void onInitialize() {
+	public void onInitializeClient() {
 		Registry.register(Registries.SOUND_EVENT, ICE_PLACE.getId(), ICE_PLACE);
 		Registry.register(Registries.SOUND_EVENT, ICE_BREAK.getId(), ICE_BREAK);
 		Registry.register(Registries.SOUND_EVENT, ICE_STEP.getId(), ICE_STEP);

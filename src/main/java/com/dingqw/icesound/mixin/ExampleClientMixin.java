@@ -1,4 +1,4 @@
-package com.dingqw.icesound.client.mixin;
+package com.dingqw.icesound.mixin;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
