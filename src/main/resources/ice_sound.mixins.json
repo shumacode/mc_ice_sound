@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"SoundPitchMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

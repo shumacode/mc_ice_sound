@@ -1,38 +1,50 @@
 {
-  "ice_place": {
-    "subtitle": "subtitles.block.generic.place",
-    "sounds": [
-      {
-        "name": "ice_sound:ice_ice_ice",
-        "pitch": 1.25
-      }
-    ]
-  },
-  "ice_break": {
-    "subtitle": "subtitles.block.generic.break",
-    "sounds": [
-      {
-        "name": "ice_sound:ice_ice_ice",
-        "pitch": 1.0625
-      }
-    ]
-  },
-  "ice_step": {
-    "subtitle": "subtitles.block.generic.footsteps",
-    "sounds": [
-      {
-        "name": "ice_sound:ice_ice_ice",
-        "pitch": 1.2
-      }
-    ]
-  },
-  "ice_hit": {
-    "subtitle": "subtitles.block.generic.hit",
-    "sounds": [
-      {
-        "name": "ice_sound:ice_ice_ice",
-        "pitch": 2.0
-      }
-    ]
-  }
+	"ice_place": {
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"ice_break": {
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"ice_step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"ice_hit": {
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"packed_ice_place": {
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"packed_ice_break": {
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"packed_ice_step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"packed_ice_hit": {
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"blue_ice_place": {
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"blue_ice_break": {
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"blue_ice_step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	},
+	"blue_ice_hit": {
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{ "name": "ice_sound:ice_ice_ice", "pitch": 1.0 }]
+	}
 }

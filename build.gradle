@@ -4,6 +4,11 @@ plugins {
 }
 
 repositories {
+	// Mod Menu 的发布仓库（配置界面入口用）
+	maven {
+		name = "TerraformersMC"
+		url = "https://maven.terraformersmc.com/releases/"
+	}
 	// Add repositories to retrieve artifacts from in here.
 	// You should only use this when depending on other mods because
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
@@ -12,7 +17,7 @@ repositories {
 }
 
 loom {
-	// 这是一个仅客户端模组，所有代码都放在 src/main 里，不再区分服务端/客户端源码集。
+	// Client-only mod: all code lives in src/main, there is no separate client source set.
 	mods {
 		"ice_sound" {
 			sourceSet sourceSets.main
@@ -28,6 +33,9 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// Mod Menu：只为提供「配置」界面入口。编译期依赖，运行时没装也不影响模组工作。
+	modCompileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {

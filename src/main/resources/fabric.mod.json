@@ -17,11 +17,17 @@
 	"entrypoints": {
 		"client": [
 			"com.dingqw.icesound.Ice_sound"
+		],
+		"modmenu": [
+			"com.dingqw.icesound.client.IceSoundModMenuApi"
 		]
 	},
 	"mixins": [
 		"ice_sound.mixins.json"
 	],
+	"suggests": {
+		"modmenu": "*"
+	},
 	"depends": {
 		"fabricloader": ">=0.18.1",
 		"minecraft": "~1.21.1",
