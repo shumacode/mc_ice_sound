@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "ice_sound",
+	"version": "${version}",
+	"name": "冰冰冰音效包 | dingqw1234 v1.0.0",
+	"description": "冰!冰!!冰!!!",
+	"authors": [
+		"dingqw1234"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ice_sound/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dingqw.icesound.Ice_sound"
+		],
+		"client": [
+			"com.dingqw.icesound.client.Ice_soundClient"
+		]
+	},
+	"mixins": [
+		"ice_sound.mixins.json",
+		{
+			"config": "ice_sound.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
